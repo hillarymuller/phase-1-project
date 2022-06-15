@@ -1,0 +1,94 @@
+{
+    "outfits":
+        [
+            {
+        
+            "classicAndCool": [
+            {
+                "id": 1,
+                "img": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgxfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 2,
+                "img": "https://images.unsplash.com/photo-1618352319006-c22d55758c54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQzfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 3,
+                "img": "https://images.unsplash.com/photo-1557022971-af40cfaf8f80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjYzfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 4,
+                "img": "https://images.unsplash.com/photo-1557002666-513ca8eaa3c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b3V0Zml0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 5,
+                "img": "https://images.unsplash.com/photo-1601036567673-5b8342e20af5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG91dGZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 6,
+                "img": "https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FzdWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            },
+            {
+                "id": 7,
+                "img": "https://images.unsplash.com/photo-1521402966881-852a3b2551fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzU4fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            }
+
+        ]},
+        {
+        
+            "trendyAndFun": [
+                {
+                    "id": 1,
+                    "img": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 2,
+                    "img": "https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 3,
+                    "img": "https://images.unsplash.com/photo-1591567462127-1f25099900ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 4,
+                    "img": "https://images.unsplash.com/photo-1565115021788-6d3f1ede4980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU5fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 5,
+                    "img": "https://images.unsplash.com/photo-1519930785042-b606094b364d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fG91dGZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 6,
+                    "img": "https://images.unsplash.com/photo-1604422350799-99c9ef3ebc11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhc3VhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                }
+            ]},
+            {
+                "comfyAndCasual": [
+                    {
+                        "id": 1,
+                        "img": "https://images.unsplash.com/photo-1588117260148-b47818741c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                    },
+                    {
+                        "id": 2,
+                        "img": "https://burst.shopifycdn.com/photos/model-poses-casually-on-ride.jpg?width=746&format=pjpg&exif=1&iptc=1"
+                    },
+                    {
+                        "id": 3,
+                        "img": "https://burst.shopifycdn.com/photos/woman-dressed-in-white-leans-against-a-wall.jpg?width=746&format=pjpg&exif=1&iptc=1"
+                    },
+                    {
+                        "id": 4,
+                        "img": "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGVpc3VyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    },
+                    {
+                        "id": 5,
+                        "img": "https://images.unsplash.com/photo-1609138273459-0c945e28fdbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXRobGVpc3VyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    },
+                    {
+                        "id": 6,
+                        "img": "https://images.unsplash.com/photo-1597297260448-3cc8d0a38388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWN0aXZld2VhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    }
+                ]}
+        ]
+}
+    
