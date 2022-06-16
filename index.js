@@ -1,32 +1,70 @@
-document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/outfits')
+//document.addEventListener('DOMContentLoaded', (category) => {
+  //  fetch(`http://localhost:3000/${category}`)
+    //.then(resp => resp.json())
+    //.then(category => console.log(category))
+//});
+
+//function fetchCategory(category) {
+  //  fetch(`http://localhost:3000/${category}`)
+    //.then(resp => resp.json())
+    //.then(category => console.log(category))
+//}
+
+
+
+
+
+
+const makeEl = element => document.createElement(element);
+const BASE_URL = 'http://localhost:3000/outfits'
+
+function loadOutfits(){
+    fetch(BASE_URL)
     .then(resp => resp.json())
-    .then(outfits => renderOutfit(outfits))
-});
+    .then(outfits => outfits.forEach(renderOutfit))
+}
+loadOutfits();
 
-const makeElement = element => document.createElement(element);
+function renderOutfit(outfit){
+    const outfitCard = makeEl('div');
+    const outfitImg = makeEl('img');
+    const outfitContainer = document.getElementById(`${outfit.category}`);
+    outfitCard.id = outfit.id;
+    outfitCard.className = outfit.category;
+    outfitImg.src = outfit.img;
+    outfitImg.alt = outfit.description;
 
-function renderOutfit(outfits){
-    for (let category of outfits){
-        makeCategory(category)
-        console.log(Object.values(outfits))
-        }
+    outfitCard.append(outfitImg);
+    outfitContainer.append(outfitCard);
+
+}
+
+
+
+
+
+
+//function renderOutfit(outfits){
+  //  for (let category of outfits){
+    //    makeCategory(category)
+      //  console.log(Object.values(outfits))
+        //}
         
 
     
-}
-function makeCategory(category){
-    console.log(category);
-    const outfitCategory = makeElement('h3');
-    outfitCategory.textContent = Object.keys(category);
-    const categoryCard = makeElement('div');
-    const container = document.querySelector('.container');
-    console.log(container);
+//}
+//function makeCategory(category){
     
-    categoryCard.append(outfitCategory);
-    container.append(categoryCard);
+  //  const outfitCategory = document.getElementById(`${category}`);
+    //console.log(outfitCategory);
+    //const categoryCard = makeElement('div');
+    //const container = document.querySelector('.container');
+    //console.log(container);
+    
+    //categoryCard.append(outfitCategory);
+    //container.append(categoryCard);
 
-}
+//}
 
 
 //  const classicAndCool = outfits[0];
