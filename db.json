@@ -34,86 +34,80 @@
             },
             {
                 "id": 6,
-                "img": "https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FzdWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                "category": "Classic & Cool",
-                "description": "White knit sweater with high-waisted jeans"
-            },
-            {
-                "id": 7,
                 "img": "https://images.unsplash.com/photo-1521402966881-852a3b2551fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzU4fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                 "category": "Classic & Cool",
                 "description": "Camel-colored wool coat with brown wool hat & a blue crossbody bag"
             },
 
                 {
-                    "id": 8,
+                    "id": 7,
                     "img": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "Bright yellow cropped hoodie & sweatpants with pointed white heeled booties"
                 },
                 {
-                    "id": 9,
+                    "id": 8,
                     "img": "https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "Black wide-leg pants with white strips, a white tank top, and a hot pink belt bag"
                 },
                 {
-                    "id": 10,
+                    "id": 9,
                     "img": "https://images.unsplash.com/photo-1591567462127-1f25099900ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "White and gray gingham miniskirt with a cream cropped henley & olive green shoulder bag"
                 },
                 {
-                    "id": 11,
+                    "id": 10,
                     "img": "https://images.unsplash.com/photo-1565115021788-6d3f1ede4980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU5fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "Leopard print maxi skirt with black t-shirt and chunky black platform boots"
                 },
                 {
-                    "id": 12,
+                    "id": 11,
                     "img": "https://images.unsplash.com/photo-1519930785042-b606094b364d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fG91dGZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "Black overalls over a white sweater with black loafers"
                 },
                 {
-                    "id": 13,
+                    "id": 12,
                     "img": "https://images.unsplash.com/photo-1604422350799-99c9ef3ebc11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhc3VhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                     "category": "Trendy & Fun",
                     "description": "Oversized white button down & cream sweater vest with straight jeans & chunky white sneakers"
                 },
          
                     {
-                        "id": 14,
+                        "id": 13,
                         "img": "https://images.unsplash.com/photo-1588117260148-b47818741c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
                         "category": "Comfy & Casual",
                         "description": "Oversized gray t-shirt & sweatpants with Nike high tops & a red crossbody bag"
                     },
                     {
-                        "id": 15,
+                        "id": 14,
                         "img": "https://burst.shopifycdn.com/photos/model-poses-casually-on-ride.jpg?width=746&format=pjpg&exif=1&iptc=1",
                         "category": "Comfy & Casual",
                         "description": "Patterned crop button-down tied at waist & light jeans"
                     },
                     {
-                        "id": 16,
+                        "id": 15,
                         "img": "https://burst.shopifycdn.com/photos/woman-dressed-in-white-leans-against-a-wall.jpg?width=746&format=pjpg&exif=1&iptc=1",
                         "category": "Comfy & Casual",
                         "description": "White t-shirt & shorts"
                     },
                     {
-                        "id": 17,
+                        "id": 16,
                         "img": "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGVpc3VyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                         "category": "Comfy & Casual",
                         "description": "Black cropped oversized t-shirt & sweatpants with high-top sneakers"
                     },
                     {
-                        "id": 18,
+                        "id": 17,
                         "img": "https://images.unsplash.com/photo-1609138273459-0c945e28fdbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXRobGVpc3VyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                         "category": "Comfy & Casual",
                         "description": "Gray camo sweatsuit with a yellow beanie"
                     },
                     {
-                        "id": 19,
+                        "id": 18,
                         "img": "https://images.unsplash.com/photo-1597297260448-3cc8d0a38388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWN0aXZld2VhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                         "category": "Comfy & Casual",
                         "description": "Olive green leggings & sports bra set"
