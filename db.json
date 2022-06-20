@@ -7,11 +7,11 @@
       "description": "Navy blue collared v-neck wrap top & matching trousers"
     },
     {
-      "id": 2,
-      "img": "https://images.unsplash.com/photo-1618352319006-c22d55758c54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQzfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "category": "Classic & Cool",
-      "description": "Brown high-neck tank bodysuit with black jeans & a black belt"
-    },
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1601036567673-5b8342e20af5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG91dGZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "category": "Classic & Cool",
+        "description": "Short white floral sundress with an oversized jean jacket & a black leather backpack"
+      },  
     {
         "id": 3,
         "img": "https://images.unsplash.com/photo-1557022971-af40cfaf8f80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjYzfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -24,12 +24,13 @@
       "category": "Classic & Cool",
       "description": "Jeans, a white t-shirt, & a camel-colored blazer with high-top sneakers"
     },
+   
     {
-      "id": 5,
-      "img": "https://images.unsplash.com/photo-1601036567673-5b8342e20af5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG91dGZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "category": "Classic & Cool",
-      "description": "Short white floral sundress with an oversized jean jacket & a black leather backpack"
-    },
+        "id": 5,
+        "img": "https://images.unsplash.com/photo-1618352319006-c22d55758c54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQzfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "category": "Classic & Cool",
+        "description": "Brown high-neck tank bodysuit with black jeans & a black belt"
+      },
     {
       "id": 6,
       "img": "https://images.unsplash.com/photo-1521402966881-852a3b2551fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzU4fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
