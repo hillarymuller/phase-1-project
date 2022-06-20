@@ -44,7 +44,7 @@ function renderOutfit(outfit){
     deleteBttn.className = 'delete-bttn';
     deleteBttn.textContent = 'delete';
     deleteBttn.addEventListener('click', () => deleteOutfit(outfit));
-
+    deleteBttn.style.fontSize = '20px'
     
     outfitCard.append(outfitImg, likeBttn, deleteBttn);
     outfitContainer.append(outfitCard);
