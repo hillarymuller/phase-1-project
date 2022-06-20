@@ -18,6 +18,7 @@ function renderOutfit(outfit){
     const outfitImg = makeEl('img');
     const outfitContainer = document.getElementById(`${outfit.category}`);
     const likeBttn = makeEl('button');
+    const deleteBttn = makeEl('button');
     
     outfitCard.id = outfit.id;
     outfitCard.className = outfit.category;
@@ -40,8 +41,12 @@ function renderOutfit(outfit){
     likeBttn.style.fontSize = '30px';
     likeBttn.addEventListener('click', () => likeOutfit(likeBttn));
 
+    deleteBttn.className = 'delete-bttn';
+    deleteBttn.textContent = 'delete';
+    deleteBttn.addEventListener('click', () => deleteOutfit(outfit));
+
     
-    outfitCard.append(outfitImg, likeBttn);
+    outfitCard.append(outfitImg, likeBttn, deleteBttn);
     outfitContainer.append(outfitCard);
 
     addBackground(trendy, trendyBackground);
@@ -75,7 +80,16 @@ function likeOutfit(thing){
     thing.textContent = '♥'
 };
 
-
+function deleteOutfit(outfit){
+    fetch(BASE_URL + `/${outfit.id}`,{
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(resp => resp.json())
+    .then(item => console.log(item))
+};
 
 
 
