@@ -1,9 +1,13 @@
 
 const makeEl = element => document.createElement(element);
 const BASE_URL = 'http://localhost:3000/outfits'
+const newForm = document.querySelector('form');
+let newUrl = document.getElementById('newImg');
+let newCategory = document.getElementById('category');
 
 document.addEventListener('DOMContentLoaded', () => {
     loadOutfits();
+    addOutfit();
 })
 
 function loadOutfits(){
@@ -11,7 +15,27 @@ function loadOutfits(){
     .then(resp => resp.json())
     .then(outfits => outfits.forEach(renderOutfit))
 }
-
+function addOutfit(){
+    newForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        console.log(newUrl.value, newCategory.value);
+        let outfit = {
+            img: newUrl.value,
+            category: newCategory.value,
+        };
+        fetch(BASE_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(outfit),
+        })
+        .then(resp => resp.json())
+        .then(newOutfit => renderOutfit(newOutfit))
+    
+    });
+    newForm.reset();
+}
 
 function renderOutfit(outfit){
     const outfitCard = makeEl('div');
@@ -45,6 +69,7 @@ function renderOutfit(outfit){
     deleteBttn.textContent = 'delete';
     deleteBttn.addEventListener('click', () => deleteOutfit(outfit));
     deleteBttn.style.fontSize = '20px'
+
     
     outfitCard.append(outfitImg, likeBttn, deleteBttn);
     outfitContainer.append(outfitCard);
@@ -65,7 +90,6 @@ const comfyBackground = 'https://images.unsplash.com/photo-1579547621113-e4bb2a1
 function addBackground(category, backgroundImage){
     category.addEventListener("mouseenter", (e) => {
         e.preventDefault();
-        console.log(e.target);
         e.target.style.backgroundImage = `url('${backgroundImage}')`;
         e.target.style.color = 'white';
     }), 
@@ -90,6 +114,7 @@ function deleteOutfit(outfit){
     .then(resp => resp.json())
     .then(item => console.log(item))
 };
+
 
 
 
