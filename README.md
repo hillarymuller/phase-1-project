@@ -8,5 +8,11 @@ Features:
 - Images load from db.json when DOM content has loaded.
 - When the mouse enters a category, that entire category's background changes. When the mouse leaves, the background returns to white.
 - When the user clicks on the heart button, the heart is filled in.
+- Outfits can be deleted when the user clicks the delete button.
+- Outfits can be added to a category using the submit form.
 
+Future features might include:
+- Slider to scroll through options in each category
+- Favorites tab of previously saved items
+- Thumbs down option which would delete that outfit & add a new option in its place
 
