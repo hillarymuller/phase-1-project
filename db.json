@@ -107,6 +107,11 @@
       "img": "https://images.unsplash.com/photo-1597297260448-3cc8d0a38388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWN0aXZld2VhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
       "category": "Comfy & Casual",
       "description": "Olive green leggings & sports bra set"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3V0Zml0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "category": "Classic & Cool",
+      "id": 19
     }
   ]
 }

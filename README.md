@@ -15,4 +15,5 @@ Future features might include:
 - Slider to scroll through options in each category
 - Favorites tab of previously saved items
 - Thumbs down option which would delete that outfit & add a new option in its place
+- Randomized outfit suggestion
 
